@@ -1,0 +1,14 @@
+[project]
+name = "nightrunners"
+version = "0.1.0"
+readme = "README.md"
+authors = [{ name = "rniraclefire", email = "rniraclefire@pm.me" }]
+requires-python = ">=3.12"
+dependencies = ["pygame>=2.6.1"]
+
+[project.scripts]
+nightrunners = "nightrunners:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
